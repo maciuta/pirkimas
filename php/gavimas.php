@@ -17,7 +17,7 @@ if (empty($_POST["message"])) {
 }
 
 
-$EmailTo = "gmaciuta@gmail.com";
+$EmailTo = "gmacasdasdiuta@gmail.com";
 $Subject = "Gauta nauja žinutė";
 $emailas = "kazkoksemailas@siusti.com";
 
