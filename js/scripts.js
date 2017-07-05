@@ -3,7 +3,6 @@ $("#contactForm").validator().on("submit", function(event) {
         // handle the invalid form...
         formError();
         submitMSG(false, "Ar viską užpildėte?");
-        console.log("asd");
     } else {
         // everything looks good!
         event.preventDefault();
@@ -38,6 +37,7 @@ function formSuccess() {
 }
 
 function formError() {
+    //Keep it solid down there
     $("#contactForm").removeClass().addClass('shake animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
         $(this).removeClass();
     });
