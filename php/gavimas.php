@@ -16,8 +16,10 @@ if (empty($_POST["message"])) {
     $message = $_POST["message"];
 }
 
-
-$EmailTo = "gmacasdasdiuta@gmail.com";
+//variables must 
+//-----Use camelCase or under_score for variables
+//define constants at the top of the file
+$EmailTo = "gmaciuta@gmail.com";
 $Subject = "Gauta nauja žinutė";
 $emailas = "kazkoksemailas@siusti.com";
 
@@ -42,7 +44,7 @@ if ($success && $errorMSG == ""){
         echo "Kažkas blogai :(";
     } else {
         echo $errorMSG;
-        
+        //remove whitespaces
     }
 }
 
